@@ -1,0 +1,152 @@
+body{
+    font-family: Montserrat;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    
+}
+h2{
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-size:3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.conclude{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-family: 'Montserrat-light',sans-serif;
+    font-size: 1.2rem;
+}
+.rotateMobile{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+  
+    
+}
+h3{
+    font-family: Montserrat-Bold,sans-serif;
+    font-size:1.5rem;
+    text-decoration: bolder;
+    font-weight: 900;
+}
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+    
+}
+i{
+    width :50px;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+p{
+    color: #8f8f8f;
+}
+.fa-solid{
+    color: #ef8172;
+    margin-bottom: 18px;
+
+}
+.fa-solid:hover{
+    color:  #ff4c68;
+}
+#testimonials{
+    padding:7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+}
+.testimonial-image{
+    width:12%;
+    border-radius: 100%;
+    margin:20px;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.presslogo{
+    width: 12%;
+    margin: 0% 5%;
+}
+
+.card{
+    width:350px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+#pricing{
+    text-align: center;
+    padding: 3%;
+} 
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .rotateMobile{
+        position: static;
+        transform: rotate(0deg);
+        width:250px;
+        margin-top: 50px;
+    }
+}
+#cta{
+    text-align: center;
+    background-color:  #ff4c68;
+    padding-top: 100px;
+    padding-bottom: 170px;
+    margin-bottom:  100px;
+
+}
+.new{
+    margin: 0px 12px;
+}
+.conclude{
+    margin-bottom: 80px;
+}
+#footer{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.icn{
+    color: #ef8172;
+}
+.icn:hover{
+    color:  #ff4c68;
+}
